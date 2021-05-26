@@ -1,98 +1,149 @@
-body{
-    background-color: #bac5ecea;
+* {
+    box-sizing: border-box;
+}
+
+    body{
+    background-color: #d9e6f7;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: block;
+    min-height: 100vh;
+    overflow-y: hidden;
+  
+  }
+  
+  h1{
+      font-size: 110px;
+      font-family:sans-serif;
+      color: #D230AA;
+      text-align: center;
+      font-weight: 200;
+      padding: 0px;
+      justify-content: center;
+      background: #ffffff;
+      margin: 10px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .palavra-rosa{
+      color: #D230AA;
+      font-weight: bolder;
+  }
+  
+  .container-principal{
     
-}
-
-h1{
-    font-size: 100px;
-    font-family:sans-serif;
-    color: #D230AA;
-    text-align: center;
-    margin-bottom: 10px;
-    font-weight: 100;
-}
-.palavra-rosa{
-    color: #D230AA;
-    font-weight: bolder;
-}
-
-.container-principal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 2rem;
-}
-
-.frases-logo{
-    margin-top: 50px;
-    margin-left: 40px;
-    padding-left: 1rem;
-    padding-bottom: 40px;
-    width: 58%;
-    padding-right: 2rem;
-    background-color:rgba(255, 248, 220, 0.725);
-}
-p{
-    text-align: center;
-    font-size: 16px;
-    margin-top: 8px;
-    margin-bottom: 0px;
-}
-
-.container-login-cadastro{
+      padding-right: 2rem;
+  }
+  
+  .frases-logo{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+      background-color:rgba(255, 248, 220, 0.725);
+      padding: 0px;
+      justify-content: center;
+      background: #ffffff;
+      margin: 5px;
+      width: 100%;
+    
+  }
+  input{
+      margin-top: 5px;
+  }
+  
+  p{
+      text-align: center;
+      font-size: 16px;
+      margin-top: 8px;
+      margin-bottom: 0px;
+  }
+  
+.c-form {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding-top: 1rem;
-    background-color: #bac5ec;
-    width: 300px;
-    height: 190px;
-    margin-top: -50px;
-    border: 3px solid white;
-}
-
-input{
-    margin-top: 0px;
-    margin-bottom: 1rem;
-}
-
-.checkbox, .conta{
-    font-size: 10px;
+    gap: 10px;
+   
     
-}
-.checkbox{
-    opacity: 0.6;
-}
+  }
+  
+  .c-login {
+    display: flex;
+    flex-direction: column;
+    background-color: #E8EEFA;
+    padding: 20px;
+    margin: 5px;
+  }
+  
+  .email {
+    display: flex;  
+    flex-direction: column;
+  }
+  
+  .senha {
+    display: flex;  
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .c-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+    background-color: #E8EEFA;
+  }
+  .salvar-info{
+      margin-bottom: 10px;
+  }
+  
+  a{
+      padding-right: 5px;
+      padding-left: 5px;
+      color: rgba(0, 0, 233, 0.772);
+  }
+  
+  .link-acessar{
+      text-align: center;
+  }
 
-.container-cadastro{
-    width: 300px;
-    margin-top: 40px;
-    padding-bottom: 1rem;
-    background-color: #bac5ec;
-    border: 3px solid white;
+  .link-acessar, .link-registrar{
+      margin-top: 10px;
+      font-weight: 600;
+  }
+  .links{
+      background: #bccdea;
+      text-align: center;
+      padding: 8px;
+      margin: 10px;
+      width: 99%;
+  }
+h2 { 
+      display: flex;
+	  justify-content: center;
+      margin-top: 20px;
+      font-size: 14px;
+      opacity: 0.6;   
+    }
+h2 a{
+    text-decoration: none;
 }
-
-a{
-    padding-right: 5px;
-    padding-left: 5px;
-    color: rgba(0, 0, 255, 0.876);
-}
-
-.entrar{
-    font-weight: 700;
-    
-}
-
-.links{
-    background-color: #a5b4ea;
-    margin-top: 80px;
-    text-align: center;
-    
-}
+  
+  .contente {
+      display: flex;
+      width: 100%;
+      
+  }
+  
+  body.login {
+      background-color: #d4dded;
+      margin: 5% 0 0 0;
+  }
 
 
-@media only screen and (min-width:815px) and (max-width:1000px){
+/* @media only screen and (min-width:815px) and (max-width:1000px){
 
     .container-login-cadastro{
         width: 27%;
@@ -107,7 +158,7 @@ a{
       font-size: 13px;
     }
     .container-cadastro{
-        width: 87%;
+        
     }
 
 }
@@ -181,4 +232,4 @@ a{
 
     
 
-}
+} */
