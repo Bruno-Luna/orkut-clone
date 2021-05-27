@@ -136,6 +136,10 @@ h2 a{
         align-items: center;
         justify-content: center;
     }
+
+    h1{
+        font-weight: 600;
+    }
    
     section{
         display: none;
@@ -155,18 +159,20 @@ h2 a{
         
     }
 
+    .salvar-info{
+        text-align: center;
+    }
+    
     footer .links{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+      margin-top: 20px;
       gap:2px;
     }
 
-    .salvar-info{
-        text-align: center;
-    }
 
     h2{
         margin-bottom: 15px;
