@@ -18,12 +18,25 @@ https://bruno-luna.github.io/orkut-clone/
 - orkut-clone/
   - index.html
   - readme.md
-  - style/
-    - style.css
-    - reset.css
+  - assets/
+    - screenchot/
+      - sc-I.png
+      - sc-mobile.png
 
-### Especificações:
+    - favicon/
+      - orkut_social.png
+
+    - style/
+      - style.css
+      - reset.css
+
+## Especificações:
 
 *Fontes utilizadas*: `Tahoma`, `Geneva`, `Verdana`, `sans-serif`;
 
- *Cores utilizadas:* Branco: `#ffffff`, Rosa: `#D230AA`, Azul: `rgba(0, 0, 233, 0.772)`, Azul-claro:  `#bccdea`,  `#E8EEFA`,  `#d9e6f7`.
+ *Cores utilizadas:* 
+
+- Branco: `#ffffff` 
+- Rosa: `#D230AA` 
+- Azul: `rgba(0, 0, 233, 0.772)`, 
+- Azul-claro:  `#bccdea`,  `#E8EEFA`,  `#d9e6f7`.
