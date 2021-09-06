@@ -11,7 +11,7 @@ Neste projeto/desafio pessoal e tambem nostálgico (haha), refiz o layout da red
 
 ## :tada:  Link:
 
-https://bruno-luna.github.io/orkut-clone/
+https://orkut-clone-nwnp10twp-bruno-luna.vercel.app/
 
 ## Estrutura do diretório:
 
@@ -40,3 +40,16 @@ https://bruno-luna.github.io/orkut-clone/
 - Rosa: `#D230AA` 
 - Azul: `rgba(0, 0, 233, 0.772)`, 
 - Azul-claro:  `#bccdea`,  `#E8EEFA`,  `#d9e6f7`.
+
+## Screenshot:
+
+### Desktop:
+
+![](https://github.com/Bruno-Luna/orkut-clone/blob/master/assets/screenschot/sc-I.png)
+
+
+
+### Mobile:
+
+![](https://github.com/Bruno-Luna/orkut-clone/blob/master/assets/screenschot/sc-mobile.png)
+
